@@ -138,3 +138,20 @@ You will need to confirm the files individually before they will be uploaded.
 > 3. Upload only the files from the `1_Basics` directory into the tutorial
 >    directory on the Jupyter server
 {: .challenge}
+
+## A word of caution: What the Jupyter server at Jefferson Lab  is NOT!
+
+The Jupyter server at Jefferson Lab should be treated in the same way as an
+interactive farm node: it is a shared resource that can be access by a large
+number of users at any given time. It is **not** a computational cluster.
+
+Work that is suitable for use on the Jupyter server should be limited to:
+- visualization of analysis result: plotting, etc...
+- prototyping of analysis steps, with as ultimate goal the submission to a
+  batch farm node (more on that later).
+
+Just as with the interactive farm nodes, there are maximum CPU and memory usage
+limits in place. Your Jupyter kernel may get killed if it is using too much
+resources (or at least it will get re-niced to run with lower priority). Abuse
+of this system, just as with the interactive farm nodes, is likely to lead to
+revocation of use privileges.
