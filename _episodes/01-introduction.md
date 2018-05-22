@@ -12,7 +12,7 @@ keypoints:
 - "Access Jefferson Lab's Jupyter server at [jupyter.jlab.org](https://jupyter.jlab.org)."
 ---
 
-## The Jefferson Lab Jupyter server allows for centralized analysis
+## Using the Jefferson Lab Jupyter server for centralized analysis
 
 You may be familiar with the benefits of using python, IPython, or Jupyter
 notebooks on your local computer, whether that is a laptop or a desktop computer
@@ -132,6 +132,9 @@ You will need to confirm the files individually before they will be uploaded.
 > Log in to the Jefferson Lab Jupyter server at [jupyter.jlab.org](https://jupyter.jlab.org)
 > and perform the following actions:
 >
-> 1. Download the sample Jupyter notebooks in the [jupyter_tutorial GitHub repository](https://github.com/JeffersonLab/jupyter_tutorial/archive/master.zip)
-> 2. Upload the files in the `1_Basics` directory
+> 1. Download the sample Jupyter notebooks in the
+>    [jupyter_tutorial GitHub repository](https://github.com/JeffersonLab/jupyter_tutorial/archive/master.zip)
+> 2. Extract the file on your local computer
+> 3. Upload only the files from the `1_Basics` directory into the tutorial
+>    directory on the Jupyter server
 {: .challenge}
