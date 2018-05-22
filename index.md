@@ -23,13 +23,17 @@ At the end of this lesson you will be able to:
 > interface before tackling this lesson. The commands in this lesson
 > pertain to **Python 3**.
 >
-> Learners should ensure that they are part of the `jupyterusers` group
+> Learners should ensure that they are part of the `jupyterusers` unix group
 > on the Jefferson Lab scientific computing system. Use the `groups`
 > command in an interactive session to check if you are a member of this
 > group.
 {: .prereq}
 
 ### Getting Started
+
 To get started, follow the directions in the "[Setup](setup/)" tab to
-download the initial set of Jupyter Notebook to your working directory
-and follow any installation instructions.
+ensure that you are in the `jupyterusers` unix group.
+
+In order to speed up the entry of notebooks, later in the lesson we will
+download an initial set of Jupyter notebooks to your working directory on the
+server.
