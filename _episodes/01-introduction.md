@@ -134,3 +134,4 @@ You will need to confirm the files individually before they will be uploaded.
 >
 > 1. Download the sample Jupyter notebooks in the [jupyter_tutorial GitHub repository](https://github.com/JeffersonLab/jupyter_tutorial/archive/master.zip)
 > 2. Upload the files in the `1_Basics` directory
+{: .challenge}
