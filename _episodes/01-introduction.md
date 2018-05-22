@@ -7,7 +7,7 @@ questions:
 - "How can I access the Jefferson Lab Jupyter server?"
 objectives:
 - "Explain the benefits of using the centralized server."
-- "Create a new Jupyter with the Python 3 kernel."
+- "Create a new Jupyter notebook with the Python 3 kernel."
 keypoints:
 - "Access Jefferson Lab's Jupyter server at [jupyter.jlab.org](https://jupyter.jlab.org)."
 ---
@@ -21,7 +21,7 @@ at your institutions. This may appear as a sufficient solution to you.
 Why would you want to use a centralized Jupyter server for storing your
 notebooks?
 
-> ## There are benefits and disadvantages of a centralized approach
+> ## What are the benefits and disadvantages of a centralized approach?
 >
 > Take a few minutes to list the benefits and disadvantages that you see at this
 > point to using a centralized server. Consider both your own convenience
@@ -61,18 +61,22 @@ file tree will be empty.
 ## Creating notebooks on the Jefferson Lab Jupyter server
 
 We can create blank notebooks by using the "New" button on the top right of the
-file tree window. There are several options available:
+file tree window. There are several kernel options available:
 - Python 2 Notebook
 - Python 3 Notebook
 - Text File
 - Folder
 - Terminal
 
+> ## More kernel options listed?
+>
 > It is possible that in the future more kernels will be added to the Jupyter server
 > to allow anything from interactive ROOT C++ notebooks to R notebooks. There are
 > currently more than 50 different kernels supported by the Jupyter server.
 {: .callout}
 
+> ## Different interface?
+>
 > It is also possible that the server will be upgraded to the new Jupyter Lab
 > interface which will appear familiar to users of IDEs or analysis studios
 > (such as RStudio or even Matlab).
@@ -85,20 +89,21 @@ Jefferson Lab Jupyter server should be equivalent between python 2 and python 3.
 The system administrators have been attempting to keep the same set of packages
 installed for both python versions, to the extent possible
 
-> ## Creating your first notebook on the Jefferson Lab Jupyter server
+> ## Create your first notebook on the Jefferson Lab Jupyter server!
 >
 > Log in to the Jefferson Lab Jupyter server at [jupyter.jlab.org](https://jupyter.jlab.org)
 > and perform the following actions:
 >
 > 1. Create a new directory called `tutorial`
 > 2. Create a new Python 3 Notebook in the directory `tutorial`
-> 3. Change the name of the Notebook to `python3-basic`
+> 3. Change the name of the Notebook to `python3-intro`
 > 4. Add the following cells of code, and execute them with Shift-Enter:
 >    ~~~
 >    import sys
 >    print(sys.version)
 >    !pip list
 >    ~~~
+>
 > > ## Solution
 > >
 > > You should obtain output that specifies the python version that you are using.
@@ -106,6 +111,7 @@ installed for both python versions, to the extent possible
 > > 3.4.8 (default, Mar 23 2018, 10:04:27)
 > > [GCC 4.8.5 20150623 (Red Hat 4.8.5-16)]
 > > ~~~
+> >
 > > With the exclamation point (`!`) we can execute system commands. Even though
 > > you can open a terminal on the Jupyter server, it is locked down for security
 > > reasons. Using the exclamation point can be useful in a pinch, such as here
@@ -116,7 +122,15 @@ installed for both python versions, to the extent possible
 ## Uploading Jupyter Notebooks to the Jefferson Lab Jupyter server
 
 To get started with the tutorial, we will be uploading Jupyter Notebooks from
-a GitHub repository at.
+a GitHub repository at [github.com/JeffersonLab/jupyter_tutorial](https://github.com/JeffersonLab/jupyter_tutorial/).
 
 You can upload multiple files at once by selecting them in the upload dialog.
 You will need to confirm the files individually before they will be uploaded.
+
+> ## Upload sample notebooks on the Jefferson Lab Jupyter server!
+>
+> Log in to the Jefferson Lab Jupyter server at [jupyter.jlab.org](https://jupyter.jlab.org)
+> and perform the following actions:
+>
+> 1. Download the sample Jupyter notebooks in the [jupyter_tutorial GitHub repository](https://github.com/JeffersonLab/jupyter_tutorial/archive/master.zip)
+> 2. Upload the files in the `1_Basics` directory
