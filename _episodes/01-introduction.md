@@ -127,7 +127,7 @@ a GitHub repository at [github.com/JeffersonLab/jupyter_tutorial](https://github
 You can upload multiple files at once by selecting them in the upload dialog.
 You will need to confirm the files individually before they will be uploaded.
 
-> ## Upload sample notebooks on the Jefferson Lab Jupyter server!
+> ## Upload sample notebooks on the Jefferson Lab Jupyter server
 >
 > Log in to the Jefferson Lab Jupyter server at [jupyter.jlab.org](https://jupyter.jlab.org)
 > and perform the following actions:
@@ -137,6 +137,18 @@ You will need to confirm the files individually before they will be uploaded.
 > 2. Extract the file on your local computer
 > 3. Upload only the files from the `1_Basics` directory into the tutorial
 >    directory on the Jupyter server
+{: .challenge}
+
+> ## Git clone the sample notebooks on the Jefferson Lab Jupyter server
+>
+> Log in to the Jefferson Lab interactive farm node and navigate to
+> `/group/jupyterusers/$USER` and perform the following actions:
+>
+> 1. Clone the
+>    [jupyter_tutorial GitHub repository](https://github.com/JeffersonLab/jupyter_tutorial/)
+>    ~~~
+>    git clone https://github.com/JeffersonLab/jupyter_tutorial
+>    ~~~
 {: .challenge}
 
 ## A word of caution: What the Jupyter server at Jefferson Lab  is NOT!
