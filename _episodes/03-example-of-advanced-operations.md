@@ -10,5 +10,3 @@ objectives:
 keypoints:
 - "Use the `tensorflow` library for machine learning in Python."
 ---
-
-## 
