@@ -35,7 +35,7 @@ To install new packages we have to get around the Jefferson Lab proxy,
 which modifies https traffic. Install (or upgrade if already installed)
 the package `tensorflow` with
 ~~~
-pip install --trusted-host pypi.org --trusted-host files.pytosted.org --user --upgrade tensorflow
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org --user --upgrade tensorflow
 ~~~
 
 When you now restart you python 3 kernel and load tensorflow, you
