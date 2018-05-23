@@ -1,7 +1,7 @@
 ---
 title: "Basic Operations"
 teaching: 10
-exercises: 5
+exercises: 15
 questions:
 - "How can I read common nuclear physics data file formats?"
 objectives:
@@ -56,9 +56,10 @@ the previous episode of this lesson.
 > 2. The same file contains another tree, `Mps_Tree`, with slightly differently
 >    named branches. Modify the notebook to load this different tree in the same
 >    input ROOT file.
-> 3. Use uproot's function `get()` to list the names of the branches in this
+> 3. Use uproot's function `keys()` to list the names of the branches in this
 >    different tree. Find the ones that are most likely equivalent, i.e. also
 >    beam current monitor (BCM) outputs.
 > 4. Recreate the correlation plots for the MPS quantities.
->
+> 5. What could explain the feature in the lag plot?
+> 6. Can you remove the offending entries from the pandas dataframe?
 {: .challenge}
