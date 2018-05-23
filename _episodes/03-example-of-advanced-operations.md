@@ -10,3 +10,33 @@ objectives:
 keypoints:
 - "Use the `tensorflow` library for machine learning in Python."
 ---
+
+## Installing your own python packages
+
+Not all packages you need will be installed on the Jefferson Lab
+Jupyter server. To install your own packages, log in to the
+interactively farm nodes and make sure you have access to the correct
+python environment (we will use python 3). To do this, add the python
+path to your search path:
+~~~
+export PATH=/apps/python/3.4.3/bin:$PATH
+~~~
+or in tcsh
+~~~
+set path = (/apps/python/3.4.3/bin $path)
+~~~
+This will give you access to the `pip` python package manager. You can
+get a listing of currently installed packages with
+~~~
+pip list
+~~~
+
+To install new packages we have to get around the Jefferson Lab proxy,
+which modifies https traffic. Install (or upgrade if already installed)
+the package `tensorflow` with
+~~~
+pip install --trusted-host pypi.org --trusted-host files.pytosted.org --user --upgrade tensorflow
+~~~
+
+When you now restart you python 3 kernel and load tensorflow, you
+should find the version you just installed.
