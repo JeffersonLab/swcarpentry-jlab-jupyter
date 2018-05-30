@@ -31,6 +31,19 @@ get a listing of currently installed packages with
 pip list
 ~~~
 
+We first have to setup the proxy so we can access the internet from
+the interactive farm node. We can do this by setting the following
+environment variables:
+~~~
+export HTTP_PROXY=http://jprox.jlab.org:8080
+export HTTPS_PROXY=https://jprox.jlab.org:8080
+~~~
+or in tcsh
+~~~
+set HTTP_PROXY http://jprox.jlab.org:8080
+set HTTPS_PROXY https://jprox.jlab.org:8080
+~~~
+
 To install new packages we have to get around the Jefferson Lab proxy,
 which modifies https traffic. Install (or upgrade if already installed)
 the package `tensorflow` with
