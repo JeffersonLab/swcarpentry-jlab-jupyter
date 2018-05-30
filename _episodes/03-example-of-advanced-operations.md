@@ -40,8 +40,8 @@ export HTTPS_PROXY=https://jprox.jlab.org:8080
 ~~~
 or in tcsh
 ~~~
-set HTTP_PROXY http://jprox.jlab.org:8080
-set HTTPS_PROXY https://jprox.jlab.org:8080
+setenv HTTP_PROXY http://jprox.jlab.org:8080
+setenv HTTPS_PROXY https://jprox.jlab.org:8080
 ~~~
 
 To install new packages we have to get around the Jefferson Lab proxy,
