@@ -43,6 +43,8 @@ or in tcsh
 setenv HTTP_PROXY http://jprox.jlab.org:8080
 setenv HTTPS_PROXY https://jprox.jlab.org:8080
 ~~~
+You can add the commands above to your `.login` file so they are loaded
+automatically each time you login.
 
 To install new packages we have to get around the Jefferson Lab proxy,
 which modifies https traffic. Install (or upgrade if already installed)
