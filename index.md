@@ -6,7 +6,8 @@ permalink: index.html  # Is the only page that don't follow the partner /:path/i
 **This Sowftware Carpentry Tutorial is based on the state of the Jefferson Lab Jupyter
 service in 2018. The instructions below are NOT guaranteed to be valid, but remain accessible
 here for archival purposes. Please consider the official documentation at
-https://scicomp.jlab.org/docs/JupyterHub when starting to use the Jefferson Lab Jupyter service.**
+[https://scicomp.jlab.org/docs/JupyterHub](https://scicomp.jlab.org/docs/JupyterHub) when
+starting to use the Jefferson Lab Jupyter service.**
 
 Jupyter Notebooks present a powerful way to run Python code interactively
 from anywhere in a web browser environment. Because of the large size of
